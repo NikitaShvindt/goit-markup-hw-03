@@ -28,7 +28,6 @@ ul {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
 }
 
 /* logo */
@@ -207,7 +206,6 @@ span.logo-footer {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  background-color: teal;
 }
 
 .flex-element:nth-child(3n) {
@@ -222,7 +220,6 @@ span.logo-footer {
   width: 370px;
   margin-bottom: 30px;
   margin-right: 30px;
-  background-color: tomato;
 }
 
 /* our-team */
@@ -233,6 +230,26 @@ span.logo-footer {
   line-height: 1.19;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
+}
+
+.our-team {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.our-team .item + .item {
+  margin-left: 30px;
+}
+
+/* work-list */
+
+.work-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work-list .item + .item {
+  margin-left: 30px;
 }
 
 /* feature */
@@ -278,6 +295,7 @@ span.logo-footer {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  border: 1px solid #eeeeee;
 }
 
 .text {
