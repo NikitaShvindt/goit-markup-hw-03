@@ -9,6 +9,10 @@ body {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 p,
 h1,
 h2,
@@ -74,6 +78,12 @@ span.logo-footer {
   color: #ffffff;
 }
 
+/* header */
+
+.header {
+  border-bottom: 1px solid #eeeeee;
+}
+
 /* main nav */
 
 .main-nav {
@@ -85,6 +95,7 @@ span.logo-footer {
 
 .hero {
   text-align: center;
+  background: #2f303a;
 }
 
 .hero-title {
@@ -93,6 +104,7 @@ span.logo-footer {
   line-height: 1.36;
   letter-spacing: 0.06em;
   margin-bottom: 30px;
+  color: #ffffff;
 }
 
 .hero-btn {
@@ -113,6 +125,10 @@ span.logo-footer {
 
 .section-title {
   margin-bottom: 50px;
+}
+
+.padding-top {
+  padding-top: 0px;
 }
 
 /* site nav */
@@ -201,6 +217,8 @@ span.logo-footer {
 .flex-btn {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .flex-container {
@@ -241,6 +259,10 @@ span.logo-footer {
   margin-left: 30px;
 }
 
+.bckg {
+  background: #f5f4fa;
+}
+
 /* work-list */
 
 .work-list {
@@ -274,6 +296,9 @@ span.logo-footer {
 
 .btn {
   cursor: pointer;
+  border: transparent;
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 
 .title {
@@ -291,6 +316,8 @@ span.logo-footer {
 }
 
 .title-name {
+  margin-left: 24px;
+  margin-right: 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -299,6 +326,9 @@ span.logo-footer {
 }
 
 .text {
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-top: 4px;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -308,6 +338,8 @@ span.logo-footer {
 /* footer */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
 }
 
