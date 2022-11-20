@@ -248,6 +248,7 @@ span.logo-footer {
 }
 
 .flex-element {
+  border: 1px solid #eeeeee;
   width: 370px;
   margin-bottom: 30px;
   margin-right: 30px;
@@ -275,6 +276,10 @@ span.logo-footer {
 .our-team {
   display: flex;
   flex-wrap: wrap;
+}
+
+.our-team .item {
+  border-radius: 0px;
 }
 
 .our-team .item + .item {
@@ -350,7 +355,6 @@ span.logo-footer {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  border: 1px solid #eeeeee;
 }
 
 .text {
