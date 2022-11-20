@@ -275,11 +275,11 @@ span.logo-footer {
 
 .our-team {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .our-team .item {
-  border-radius: 0px;
+  border: 1px solid #eeeeee;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team .item + .item {
@@ -349,6 +349,7 @@ span.logo-footer {
 }
 
 .title-name {
+  margin-top: 20px;
   margin-left: 24px;
   margin-right: 24px;
   font-weight: 700;
@@ -360,6 +361,7 @@ span.logo-footer {
 .text {
   margin-right: 24px;
   margin-left: 24px;
+  margin-bottom: 20px;
   margin-top: 4px;
   font-size: 16px;
   line-height: 1.88;
